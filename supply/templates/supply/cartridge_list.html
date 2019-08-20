@@ -1,0 +1,10 @@
+{%  extends 'base.html' %}
+{% block content %}
+<ul>
+{% for cat in object_list %}
+    <li><p>Cartridge Type: <a href="/supply/{{ cat.id }}">{{ cat.name }}</a></p></li>
+{% endfor %}
+</ul>
+
+
+{% endblock %}
