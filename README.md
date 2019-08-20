@@ -10,10 +10,10 @@ Farm Management Software
 
 ### First Steps
 
-python manage.py makemigrations
-python manage.py migrate
-python manage.py makemigrations
-python manage.py createsuperuser
+* python manage.py makemigrations
+* python manage.py migrate
+* python manage.py makemigrations
+* python manage.py createsuperuser
 
 Fix problems if any...
 
