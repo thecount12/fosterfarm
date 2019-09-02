@@ -6,6 +6,7 @@ from django.contrib.auth import views as auth_views
 from django.conf.urls import include
 import basicapp.views 
 import signup.views
+import supply.views
 from django.urls import path
 
 urlpatterns = [
@@ -17,4 +18,6 @@ urlpatterns = [
     path('thanks/', signup.views.thanks),
     path('blog/', include('blog.urls')),
     path('admin/', admin.site.urls),
+    path('supply/', include('supply.urls')),
+
 ]
